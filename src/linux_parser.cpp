@@ -128,7 +128,7 @@ long LinuxParser::ActiveJiffies(int pid) {
       linestream >> utime >> stime>> cutime >> cstime;
     }
   }
-  return utime + stime + cutime + cstime;
+  return (utime + stime + cutime + cstime) ;
 }
 
 // TODO: Read and return the number of active jiffies for the system

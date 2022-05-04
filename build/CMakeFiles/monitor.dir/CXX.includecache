@@ -18,6 +18,22 @@ string
 string
 -
 
+/home/workspace/CppND-System-Monitor/src/linux_parser.cpp
+dirent.h
+-
+unistd.h
+-
+sstream
+-
+string
+-
+vector
+-
+iostream
+-
+linux_parser.h
+/home/workspace/CppND-System-Monitor/src/linux_parser.h
+
 /home/workspace/CppND-System-Monitor/src/process.cpp
 unistd.h
 -
